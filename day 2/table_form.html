@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Table</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="4"> 
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>City</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ajay</td>
+                <td>Maths</td>
+                <td>Bangalore</td>
+                <td>60</td>
+            </tr>
+
+            <tr>
+                <td>Ram</td>
+                <td>Science</td>
+                <td>Goa</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>Sanjay</td>
+                <td>Social</td>
+                <td>Chennai</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <h1>Form</h1>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required/><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required/><br><br>
+
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <option value="">Select City</option>
+            <option value="">Bangalore</option>
+            <option value="">Delhi</option>
+            <option value="">Mumbai</option>
+            <option value="">Chennai</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+        
+
+    </form>
+</body>
+</html>
